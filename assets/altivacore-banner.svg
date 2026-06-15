@@ -1,73 +1,72 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="300" rx="28" fill="#08111F"/>
+  <rect width="1200" height="300" rx="26" fill="#08111F"/>
 
   <defs>
-    <linearGradient id="coreGradient" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="greenGradient" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#9BE37D"/>
-      <stop offset="100%" stop-color="#16A34A"/>
+      <stop offset="100%" stop-color="#22C55E"/>
     </linearGradient>
 
-    <linearGradient id="accentGlow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0F766E" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#16A34A" stop-opacity="0.08"/>
+    <linearGradient id="softPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F766E" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0.05"/>
     </linearGradient>
   </defs>
 
-  <!-- fondo sutil -->
-  <rect x="0" y="0" width="1200" height="300" rx="28" fill="#08111F"/>
-  <circle cx="1030" cy="70" r="150" fill="url(#accentGlow)"/>
-  <circle cx="90" cy="255" r="120" fill="#16A34A" opacity="0.06"/>
+  <!-- Fondo sobrio -->
+  <rect x="32" y="32" width="1136" height="236" rx="22" fill="#0B1424" stroke="#1E293B" stroke-width="1.5"/>
 
-  <!-- líneas muy sutiles -->
-  <path d="M0 215H1200" stroke="#132238" stroke-width="1"/>
-  <path d="M0 140H1200" stroke="#132238" stroke-width="1" opacity="0.45"/>
-  <path d="M170 0V300" stroke="#132238" stroke-width="1" opacity="0.35"/>
-  <path d="M480 0V300" stroke="#132238" stroke-width="1" opacity="0.18"/>
+  <!-- Panel lateral sutil -->
+  <rect x="32" y="32" width="285" height="236" rx="22" fill="url(#softPanel)"/>
+  <path d="M317 32V268" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- contenedor logo -->
-  <rect x="72" y="74" width="112" height="112" rx="24" fill="#0E1A2D" stroke="#1B2C45" stroke-width="2"/>
+  <!-- Logo box -->
+  <rect x="86" y="84" width="132" height="132" rx="30" fill="#0F172A" stroke="#25364D" stroke-width="2"/>
 
-  <!-- isotipo -->
-  <path d="M128 98L159 154H140L128 132L116 154H97L128 98Z" fill="#F8FAFC"/>
-  <circle cx="128" cy="144" r="18" fill="#08111F" stroke="url(#coreGradient)" stroke-width="8"/>
-  <circle cx="128" cy="144" r="5.5" fill="#9BE37D"/>
+  <!-- Isotipo AltivaCore -->
+  <path d="M152 108L191 178H169L152 148L135 178H113L152 108Z" fill="#F8FAFC"/>
+  <circle cx="152" cy="164" r="22" fill="#08111F" stroke="url(#greenGradient)" stroke-width="8"/>
+  <circle cx="152" cy="164" r="6" fill="#9BE37D"/>
 
-  <!-- circuitos -->
-  <path d="M92 137H110" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round"/>
-  <path d="M146 137H165" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round"/>
-  <circle cx="90" cy="137" r="5" fill="#08111F" stroke="#38BDF8" stroke-width="3.5"/>
-  <circle cx="167" cy="137" r="5" fill="#08111F" stroke="#38BDF8" stroke-width="3.5"/>
+  <!-- Circuitos -->
+  <path d="M107 155H130" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M174 155H198" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="105" cy="155" r="6" fill="#08111F" stroke="#38BDF8" stroke-width="4"/>
+  <circle cx="200" cy="155" r="6" fill="#08111F" stroke="#38BDF8" stroke-width="4"/>
 
-  <path d="M92 156H111" stroke="#9BE37D" stroke-width="4.5" stroke-linecap="round"/>
-  <path d="M145 156H165" stroke="#9BE37D" stroke-width="4.5" stroke-linecap="round"/>
-  <circle cx="90" cy="156" r="5" fill="#08111F" stroke="#9BE37D" stroke-width="3.5"/>
-  <circle cx="167" cy="156" r="5" fill="#08111F" stroke="#9BE37D" stroke-width="3.5"/>
+  <path d="M107 178H131" stroke="#9BE37D" stroke-width="5" stroke-linecap="round"/>
+  <path d="M173 178H198" stroke="#9BE37D" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="105" cy="178" r="6" fill="#08111F" stroke="#9BE37D" stroke-width="4"/>
+  <circle cx="200" cy="178" r="6" fill="#08111F" stroke="#9BE37D" stroke-width="4"/>
 
-  <!-- texto principal -->
-  <text x="220" y="120" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800">
-    Altiva<tspan fill="url(#coreGradient)">Core</tspan>
+  <!-- Texto principal -->
+  <text x="365" y="115" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">
+    Altiva<tspan fill="url(#greenGradient)">Core</tspan>
   </text>
 
-  <text x="220" y="162" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="600">
+  <text x="368" y="158" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">
     Tecnología aplicada a procesos reales.
   </text>
 
-  <text x="220" y="198" fill="#9FB2C8" font-family="Segoe UI, Arial, sans-serif" font-size="19">
-    Automatización · Sistemas empresariales · Datos · Productos web
+  <text x="368" y="195" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="19">
+    Sistemas empresariales · Automatización · Datos · Productos web
   </text>
 
-  <!-- pills -->
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="700">
-    <rect x="220" y="222" width="112" height="34" rx="17" fill="#12233A"/>
-    <text x="247" y="244" fill="#E2E8F0">Sistemas</text>
+  <!-- Línea inferior -->
+  <path d="M368 222H920" stroke="#1E293B" stroke-width="1.5"/>
 
-    <rect x="344" y="222" width="146" height="34" rx="17" fill="#12233A"/>
-    <text x="368" y="244" fill="#E2E8F0">Automatización</text>
+  <!-- Etiquetas sobrias -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="368" y="236" width="92" height="30" rx="15" fill="#12233A"/>
+    <text x="392" y="256" fill="#E2E8F0">Sistemas</text>
 
-    <rect x="502" y="222" width="88" height="34" rx="17" fill="#12233A"/>
-    <text x="532" y="244" fill="#E2E8F0">Datos</text>
+    <rect x="472" y="236" width="136" height="30" rx="15" fill="#12233A"/>
+    <text x="495" y="256" fill="#E2E8F0">Automatización</text>
 
-    <rect x="602" y="222" width="114" height="34" rx="17" fill="#12233A"/>
-    <text x="627" y="244" fill="#E2E8F0">MiCajaPOS</text>
+    <rect x="620" y="236" width="78" height="30" rx="15" fill="#12233A"/>
+    <text x="646" y="256" fill="#E2E8F0">Datos</text>
+
+    <rect x="710" y="236" width="112" height="30" rx="15" fill="#12233A"/>
+    <text x="735" y="256" fill="#E2E8F0">MiCajaPOS</text>
   </g>
 </svg>

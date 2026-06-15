@@ -11,7 +11,6 @@
 <p>
   <img src="https://img.shields.io/badge/estado-en%20desarrollo-0F172A?style=for-the-badge" alt="Estado: en desarrollo" />
   <img src="https://img.shields.io/badge/base-Chile-16A34A?style=for-the-badge" alt="Base: Chile" />
-  <img src="https://img.shields.io/badge/focus-sistemas%20%7C%20datos%20%7C%20automatización-0F766E?style=for-the-badge" alt="Focus: sistemas, datos y automatización" />
 </p>
 
 </div>
@@ -28,15 +27,15 @@ El objetivo es convertir procesos manuales, dispersos o difíciles de mantener e
   <tr>
     <td width="33%">
       <h3>01 · Sistemas empresariales</h3>
-      <p>Aplicaciones web, módulos internos y herramientas de gestión para operación diaria.</p>
+      <p>Aplicaciones web, módulos internos y herramientas de gestión para apoyar la operación diaria.</p>
     </td>
     <td width="33%">
       <h3>02 · Automatización</h3>
-      <p>Procesos programados, reportes, integraciones y reducción de tareas repetitivas.</p>
+      <p>Procesos programados, generación de reportes, integraciones y reducción de tareas repetitivas.</p>
     </td>
     <td width="33%">
       <h3>03 · Datos y operación</h3>
-      <p>Consultas, estructuras de información, reportes y soporte a decisiones operativas.</p>
+      <p>Consultas, estructuras de información, reportes y soporte técnico para decisiones operativas.</p>
     </td>
   </tr>
 </table>
@@ -115,63 +114,3 @@ trazables     → con control de versiones, logs y documentación
 seguras       → sin exposición de credenciales ni datos sensibles
 escalables    → preparadas para crecer por módulos
 documentadas  → útiles para otros desarrolladores y equipos técnicos
-```
-
----
-
-## Organización de repositorios
-
-Los repositorios públicos se utilizan para presentar productos, documentación general, landing pages, componentes no sensibles y material técnico demostrativo.
-
-Los repositorios privados se reservan para:
-
-* código fuente de productos en desarrollo;
-* integraciones reales;
-* lógica de negocio;
-* automatizaciones productivas;
-* consultas internas;
-* configuraciones de despliegue;
-* documentación confidencial;
-* archivos operativos o generados por procesos internos.
-
----
-
-## Roadmap general
-
-| Área                          | Estado          |
-| ----------------------------- | --------------- |
-| Perfil público de GitHub      | En construcción |
-| Web corporativa AltivaCore    | Planificada     |
-| Landing pública de MiCajaPOS  | Planificada     |
-| Sistema MiCajaPOS             | Diseño técnico  |
-| Automatizaciones internas     | Privadas        |
-| ERP AltivaCore                | Futuro          |
-| Documentación técnica pública | Pendiente       |
-
----
-
-## Seguridad y confidencialidad
-
-Los repositorios públicos de AltivaCore no incluyen credenciales, datos reales de clientes, rutas internas, consultas productivas sensibles ni configuraciones privadas.
-
-El código operativo, las integraciones reales y la documentación interna se mantienen en repositorios privados.
-
----
-
-## Visión técnica
-
-AltivaCore busca construir una base tecnológica ordenada para productos y servicios que puedan evolucionar desde soluciones internas hasta plataformas comerciales.
-
-La prioridad no es solo crear software funcional, sino desarrollar sistemas mantenibles, seguros y entendibles para equipos técnicos futuros.
-
----
-
-<div align="center">
-
-## AltivaCore.cl
-
-Sitio web en preparación.
-
-**Tecnología aplicada a procesos reales.**
-
-</div>

@@ -1,0 +1,37 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" rx="28" fill="#0B1220"/>
+
+  <circle cx="1050" cy="80" r="160" fill="#2563EB" opacity="0.25"/>
+  <circle cx="180" cy="300" r="180" fill="#22C55E" opacity="0.16"/>
+  <circle cx="650" cy="40" r="120" fill="#14B8A6" opacity="0.12"/>
+
+  <rect x="72" y="72" width="96" height="96" rx="22" fill="#101827" stroke="#1E293B" stroke-width="2"/>
+  <path d="M96 136V96H112V112H128V96H144V136H128V124H112V136H96Z" fill="#9BE37D"/>
+  <path d="M108 152H156V168H108V152Z" fill="#9BE37D"/>
+
+  <text x="200" y="118" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">
+    AltivaCore
+  </text>
+
+  <text x="202" y="166" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">
+    Tecnología aplicada a procesos reales.
+  </text>
+
+  <text x="202" y="214" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    Automatización · Sistemas empresariales · Datos · Productos web
+  </text>
+
+  <g>
+    <rect x="202" y="252" width="132" height="38" rx="19" fill="#1E293B"/>
+    <text x="227" y="277" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Sistemas</text>
+
+    <rect x="350" y="252" width="164" height="38" rx="19" fill="#1E293B"/>
+    <text x="374" y="277" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Automatización</text>
+
+    <rect x="530" y="252" width="112" height="38" rx="19" fill="#1E293B"/>
+    <text x="562" y="277" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Datos</text>
+
+    <rect x="658" y="252" width="132" height="38" rx="19" fill="#1E293B"/>
+    <text x="684" y="277" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">MiCajaPOS</text>
+  </g>
+</svg>

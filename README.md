@@ -2,77 +2,58 @@
 
 # AltivaCore
 
-### Soluciones digitales, automatización y sistemas empresariales.
+### Tecnología aplicada a procesos reales.
 
-AltivaCore desarrolla herramientas orientadas a mejorar procesos operativos, centralizar información y construir productos tecnológicos escalables para empresas.
+Soluciones digitales, automatización, sistemas empresariales y productos web.
+
+<br />
+
+![Status](https://img.shields.io/badge/status-en%20desarrollo-blue)
+![Focus](https://img.shields.io/badge/focus-automatización%20%7C%20sistemas%20web%20%7C%20datos-black)
+![Location](https://img.shields.io/badge/base-Chile-red)
 
 </div>
 
 ---
 
-## Sobre AltivaCore
+## Qué es AltivaCore
 
-AltivaCore es una iniciativa enfocada en el desarrollo de soluciones digitales para empresas, con énfasis en automatización, sistemas internos, análisis de datos, integración de procesos y productos web.
+AltivaCore es una organización enfocada en construir soluciones digitales para empresas, integrando desarrollo web, automatización de procesos, análisis de datos y herramientas operativas.
 
-El objetivo es construir herramientas mantenibles, documentadas y preparadas para crecer desde soluciones internas hasta plataformas comerciales.
-
----
-
-## Áreas de trabajo
-
-- Desarrollo de sistemas web
-- Automatización de procesos
-- Integración con bases de datos
-- Generación de reportes operativos
-- Herramientas de gestión empresarial
-- Soluciones POS y ERP
-- Documentación técnica de procesos
-- Análisis y estructuración de datos
+La visión del proyecto es transformar procesos manuales o dispersos en sistemas claros, trazables y escalables.
 
 ---
 
-## Productos y proyectos
+## Líneas de desarrollo
+
+<table>
+  <tr>
+    <td><strong>Sistemas web</strong></td>
+    <td>Aplicaciones para gestión, operación y visualización de información.</td>
+  </tr>
+  <tr>
+    <td><strong>Automatización</strong></td>
+    <td>Procesos programados, reportes, integraciones y reducción de tareas repetitivas.</td>
+  </tr>
+  <tr>
+    <td><strong>Datos</strong></td>
+    <td>Consultas, reportes, estructuras de base de datos y procesamiento de información.</td>
+  </tr>
+  <tr>
+    <td><strong>Productos</strong></td>
+    <td>Soluciones propias como MiCajaPOS y futuras plataformas empresariales.</td>
+  </tr>
+</table>
+
+---
+
+## Productos
 
 ### MiCajaPOS
 
-Sistema POS orientado a pequeños y medianos negocios.
-
-El objetivo de MiCajaPOS es permitir la gestión de ventas, productos, caja, clientes, inventario y reportes desde una plataforma simple, ordenada y escalable.
-
-Estado actual: diseño inicial y definición técnica.
-
----
-
-### AltivaCore Web
-
-Sitio corporativo de AltivaCore.
-
-Funcionará como punto central para presentar servicios, productos digitales, documentación pública, contacto y accesos futuros a plataformas como MiCajaPOS o un ERP empresarial.
-
-Estado actual: planificación.
-
----
-
-## Enfoque técnico
-
-AltivaCore prioriza:
-
-- Código claro y mantenible
-- Separación entre lógica de negocio, interfaz y datos
-- Documentación técnica útil
-- Control de versiones con Git
-- Seguridad en el manejo de credenciales
-- Estructuras preparadas para despliegue
-- Automatización de tareas repetitivas
-
----
-
-## Tecnologías de interés
+Sistema POS pensado para la administración de ventas, caja, productos, clientes, inventario y reportes.
 
 ```txt
-Frontend     Astro · React · TypeScript · Tailwind CSS
-Backend      Node.js · Express · Python · FastAPI
-Datos        SQL Server · PostgreSQL · SQLite
-DevOps       Docker · GitHub Actions · Windows Server
-Automatización Python · Batch · Task Scheduler
-Documentación Markdown · Diagramas técnicos
+Estado: diseño técnico inicial
+Tipo: producto propio
+Objetivo: plataforma POS simple, mantenible y escalable
